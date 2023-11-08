@@ -25,7 +25,8 @@ public class BasicOperationsOnArrayList
         
         //people.add(9, "will it work");
         
-        // get a steiung
+        // get a string
+        //String st = people(3);
         String st = people.get(3);
         System.out.println(st);
         

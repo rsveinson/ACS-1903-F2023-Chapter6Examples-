@@ -27,7 +27,7 @@ public class Chapter6CodeForSlides {
         System.out.println(names.indexOf("Carrot"));
         
         // names.add(5, "Vetinari");
-        // names.set(3, "RegShoe");
+        //names.set(3, "RegShoe");
         // names.get(3);
         // names.remove(3);
         
