@@ -28,5 +28,6 @@ public class OldStyleArrayList
         System.out.println(people);
         for (Object p: people)
             System.out.println(p);
+            //System.out.println(p.length());
     }
 }

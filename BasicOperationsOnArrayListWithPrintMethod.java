@@ -34,7 +34,7 @@ public class BasicOperationsOnArrayListWithPrintMethod
         for (String p: l){
             System.out.println(p);
         }
-        l.set(0, "Loki");
+        //l.set(0, "Loki");
             
         System.out.println("***************\n");
     }// end printList

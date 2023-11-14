@@ -19,10 +19,12 @@ public class PreventDuplicatesInArrayList
             // people.add() will only execute if
             // the current name read from kb is
             // not already present in the list
-            if (!people.contains(name))
+             if (!people.contains(name))
                 people.add(name);
-            name = kb.next();
+            
             System.out.println(people.size());
+            
+            name = kb.next();
         }// end while
         
         // display the names in people

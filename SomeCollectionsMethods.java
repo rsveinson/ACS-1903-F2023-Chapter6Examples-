@@ -7,12 +7,15 @@ public class SomeCollectionsMethods
         // set up
         ArrayList<String> people = new ArrayList<>();
         people.clear();
+        System.out.println(people);
         
         // add a bunch of objects all at once
         Collections.addAll(people, "John", "Paul", "George", "Ringo");
         // The list people is now ["John", "Paul", "George", "Ringo"]
         System.out.println("original \t"+people);
-
+        //Collections.addAll(people, "John", "Mick", "Keith", "Charlie", "Bill");
+        //System.out.println("original \t"+people);
+        
         //sort()
         //can be used to sort a list
         people.clear();
@@ -25,6 +28,7 @@ public class SomeCollectionsMethods
         //can be used to randomly order a list 
         people.clear();
         Collections.addAll(people, "John", "Paul", "George", "Ringo");
+        //System.out.println("shuffled  \t"+people);
         Collections.shuffle(people);
         // Now, there are 4*3*2*1 = 24 different possibilities for order of entries in the list
         System.out.println("shuffled  \t"+people);

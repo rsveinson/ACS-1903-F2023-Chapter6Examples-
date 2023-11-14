@@ -24,26 +24,26 @@ public class ParalleArrayListsExample1{
             t2.add(r.nextInt(26) + 25);
         } // end for
 
-        //id.set(2, 2000);
-        //System.out.println(id.size());
+        id.set(2, 2000);
+        System.out.println(id.size());
         System.out.println("\n");
         
         // correctly access an entire record
-        // System.out.print(id.get(2));
-        // System.out.print(": " + t1.get(2));
-        // System.out.println(", " + t2.get(2));
+        System.out.print(id.get(2));
+        System.out.print(": " + t1.get(2));
+        System.out.println(", " + t2.get(2));
 
         // oops careless indexing can lead to unwanted results
-        // System.out.print(id.get(2));
-        // System.out.print(": " + t1.get(1));
-        // System.out.println(", " + t2.get(6));
+        System.out.print(id.get(2));
+        System.out.print(": " + t1.get(1));
+        System.out.println(", " + t2.get(6));
         
         
         // print the array lists
         for(int i = 0; i < id.size(); i++){
-            // System.out.print(id.get(i) + "\t");
-            // System.out.print(t1.get(i) + "\t");
-            // System.out.println(t2.get(i));
+            System.out.print(id.get(i) + "\t");
+            System.out.print(t1.get(i) + "\t");
+            System.out.println(t2.get(i));
          }// end for  
 
         // print the record of the person with the larest t1 value

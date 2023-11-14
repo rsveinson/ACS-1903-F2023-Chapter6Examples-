@@ -20,7 +20,8 @@ public class BasicOperationsOnArrayList
         people.add(4, "kelal2");
         people.add(4, "kelal3");
         people.add(6, "joral");
-        //System.out.println(people.isEmpty());
+        System.out.println(people);
+        System.out.println(people.isEmpty());
         
         
         //people.add(9, "will it work");
@@ -30,7 +31,9 @@ public class BasicOperationsOnArrayList
         String st = people.get(3);
         System.out.println(st);
         
-        people.set(3, "Thor");
+        //System.out.println(people.set(3, "Thor"));
+        st = people.set(3, "Thor");
+        System.out.println(st);
         st = people.get(3);
         System.out.println(st);
         // remove a name
